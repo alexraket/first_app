@@ -6,7 +6,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,6 +29,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+require 'rake/dsl_definition'
+gem 'rake', '0.9.2.2'
 
 group :development do
 	gem 'rspec-rails', '2.6.1'
