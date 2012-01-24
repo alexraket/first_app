@@ -31,9 +31,11 @@ gem 'jquery-rails'
 require 'rake/dsl_definition'
 gem 'rake', '0.9.2.2'
 
+
 group :development do
 	gem 'rspec-rails', '2.6.1'
 	gem 'sqlite3-ruby', :require => 'sqlite3'
+	gem 'annotate', '2.4.0'
 end
 
 group :test do
